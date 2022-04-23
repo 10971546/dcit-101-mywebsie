@@ -1,12 +1,6 @@
 .heim {
-    height: 250px;
-    margin: -10;
-    width: 100%;
-    padding-right: 50px;
-    padding-top: 150px;
-    padding-left: 500px;
-    background-image: url("166013.jpg");
-    font-size: 5ch;
+    height: 50px;
+    width: 50px;
 }
 
 div {
@@ -25,22 +19,27 @@ a {
 }
 
 #button {
-    margin-left: 1300px;
-    margin-top: -29px;
+    margin-left: 1290px;
+    margin-top: -30px;
     border-top-right-radius: 20px;
     height: 30px;
+    background-image: linear-gradient(to top, rgb(173, 122, 27), rgb(131, 131, 58));
+    border-left-color: black;
+    border-color: black;
 }
 
 #searchbox {
-    margin-left: 1105px;
+    margin-left: 1090px;
     margin-top: 15px;
     height: 30px;
     border-bottom-left-radius: 30px;
     padding-left: 20px;
+    border-right-color: black;
 }
 
 body {
     background-image: url("166013.jpg");
+    width: 100%;
 }
 
 img#img1 {
@@ -58,4 +57,38 @@ img#img2 {
 
 h1 {
     font-family: unset;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+img#img3 {
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+    margin-left: 790px;
+    position: absolute
+}
+
+select {
+    margin-top: 0px;
+}
+
+p {
+    margin-left: 450px;
+    font-size: 3ch;
+    font-family: cursive, fantasy;
+}
+
+.drop {
+    margin-left: 1250px;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border: 5px;
+    border-radius: 100px;
+    background: transparent;
+    transition: .6s;
+    margin-top: -30px;
 }
